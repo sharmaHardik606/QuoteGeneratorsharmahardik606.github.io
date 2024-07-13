@@ -1,5 +1,8 @@
 Random Quote Generator
 
+check it out here 
+https://sharmahardik606.github.io/QuoteGeneratorsharmahardik606.github.io/
+
 This is a simple Random Quote Generator built using HTML, CSS, and JavaScript. The application displays a new random quote each time the user clicks a button and also you can put the quote on twitter.
 
 Features
