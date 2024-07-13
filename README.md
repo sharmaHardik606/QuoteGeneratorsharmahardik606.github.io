@@ -5,7 +5,9 @@ This is a simple Random Quote Generator built using HTML, CSS, and JavaScript. T
 Features
 
 Generates a random quote on button click
+
 Clean and responsive design
+
 Put quote directly on twitter
 
 
