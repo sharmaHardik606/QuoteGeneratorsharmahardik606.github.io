@@ -84,6 +84,13 @@ h2{
     color: #476A6F;
     cursor: pointer;
 }
+#b1:active {
+    background-color: rgb(231, 231, 231);
+  }
+
+#b2:active {
+    background-color: rgb(231, 231, 231);
+  }
 
 @media(max-width:577px){
     .p{
