@@ -6,10 +6,18 @@ const tweet = document.querySelector("#b2");
 
 
 const getQuote = async()=>{
+    try{
     let response = await fetch(url);
+    if(!response.ok){
+        throw new Error("HTTP error! status: " + response.status);
+    }
     let data = await response.json();
     quote.innerHTML = data.content;
     author.innerHTML = "-" + data.author;
+    }
+    catch(error){
+        alert("Error fetching quote",error)
+    }
 }
 
 
