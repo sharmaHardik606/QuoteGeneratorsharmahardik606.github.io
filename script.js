@@ -16,7 +16,7 @@ const getQuote = async()=>{
     author.innerHTML = "-" + data.author;
     }
     catch(error){
-        alert("Error fetching quote",error)
+        alert("Error: " + error.message);
     }
 }
 
